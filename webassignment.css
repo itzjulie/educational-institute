@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #2e7d32;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #c8e6c9;
+}
+
+.banner {
+    background-image: url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.banner-content {
+    margin-left: 50px;
+    background: rgba(0,0,0,0.4);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.banner h1 {
+    font-size: 48px;
+}
+
+.banner button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    background-color: #66bb6a;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.banner button:hover {
+    background-color: #43a047;
+}
+
+.features {
+    padding: 50px;
+    text-align: center;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.feature-box {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #c8e6c9;
+    border-radius: 8px;
+}
+
+.pricing {
+    padding: 50px;
+    background-color: #f1f8e9;
+    text-align: center;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.pricing-card {
+    background: white;
+    width: 30%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.price {
+    font-size: 28px;
+    margin: 15px 0;
+    color: #2e7d32;
+}
+
+.pricing-card button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #2e7d32;
+    color: white;
+    cursor: pointer;
+}
+
+.pricing-card button:hover {
+    background-color: #1b5e20;
+}
+
+/* Footer */
+.footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .feature-container,
+    .pricing-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-box,
+    .pricing-card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .banner h1 {
+        font-size: 32px;
+    }
+}

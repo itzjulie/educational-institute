@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/HP/OneDrive/Desktop/c++",
-      "program": "c:/Users/HP/OneDrive/Desktop/c++/build/Debug/outDebug",
+      "cwd": "c:/Users/HP/OneDrive/Desktop/web",
+      "program": "c:/Users/HP/OneDrive/Desktop/web/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
